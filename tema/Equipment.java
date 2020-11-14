@@ -9,7 +9,7 @@ public class Equipment implements IEquipment {
     }
 
     public int getTime(){
-	return this.delay;
+	return this.time;
     }
     public Equipment(int time) {
         this.time = time;
