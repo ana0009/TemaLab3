@@ -2,10 +2,24 @@ package tema;
 
 public class Equipment implements IEquipment {
     protected int delay;
+    protected int time;	
 
     public Equipment(int delay) {
         this.delay = delay;
     }
+
+    public int getTime(){
+	return this.time;
+    }
+    public Equipment(int time) {
+        this.time = time;
+    }
+
+    public Equipment(int time, int delay) {
+        this.time = time;
+	this.delay = delay;
+    }
+
 
     public Equipment() {
     }

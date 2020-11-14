@@ -22,6 +22,12 @@ public class Router extends EquipmentConnection{
     }
 
     @Override
+    public String toString() {
+        return "Router" +
+                " totalBytes = " + totalBytes;
+    }	
+
+    @Override
     public void printInfo() {
         super.printInfo();
         System.out.println("Numarul total de bytes este " + this.totalBytes);
