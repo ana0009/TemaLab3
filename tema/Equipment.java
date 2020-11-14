@@ -9,7 +9,12 @@ public class Equipment implements IEquipment {
     }
 
     public Equipment(int time) {
-        this.dtime = time;
+        this.time = time;
+    }
+
+    public Equipment(int time, int delay) {
+        this.time = time;
+	this.delay = delay;
     }
 
 
