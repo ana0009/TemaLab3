@@ -8,6 +8,9 @@ public class Equipment implements IEquipment {
         this.delay = delay;
     }
 
+    public int getTime(){
+	return this.delay;
+    }
     public Equipment(int time) {
         this.time = time;
     }
